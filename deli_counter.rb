@@ -12,3 +12,11 @@ def line(katz_deli)
     puts "The line is currently: #{new_arr.join(" ")}"
     end
 end
+
+def take_a_number()
+
+end
+
+def now_serving()
+
+end
