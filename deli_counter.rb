@@ -6,9 +6,9 @@ def line(arr)
   if arr.length == 0
     puts "there is nobody in line"
     else
-    for name in array
-      new << badge_maker(name)
-    end
+      new_arr.push(arr.each.with_index {
+        |val, index|
+        })
     return badges
     end
 end
