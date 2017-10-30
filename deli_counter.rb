@@ -7,7 +7,7 @@ def line(arr)
     puts "there is nobody in line"
     else
     for name in array
-      badges << badge_maker(name)
+      new << badge_maker(name)
     end
     return badges
     end
