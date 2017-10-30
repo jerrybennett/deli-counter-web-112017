@@ -19,5 +19,8 @@ def take_a_number(katz_deli, str)
 end
 
 def now_serving(katz_deli)
+  if katz_deli == 0
+    puts
 
+  end
 end
