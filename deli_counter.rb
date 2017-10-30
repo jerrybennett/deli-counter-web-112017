@@ -18,6 +18,6 @@ def take_a_number(katz_deli, str)
   puts "Welcome, #{str}. You are number #{katz_deli.index(str) + 1} in line."
 end
 
-def now_serving()
+def now_serving(katz_deli)
 
 end
