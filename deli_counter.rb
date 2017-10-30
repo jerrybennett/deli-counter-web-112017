@@ -7,7 +7,7 @@ def line(arr)
     puts "there is nobody in line"
     else
     arr.each.with_index { |val, index|
-      puts ""
+      puts "The line is currently: #{index}. #{val}"
         }
     end
 end
