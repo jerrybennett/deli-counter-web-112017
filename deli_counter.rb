@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, str)
   katz_deli.push(str)
-  puts "Welcome, #{str}"
+  puts "Welcome, #{str}You are number 3 in line."
 end
 
 def now_serving()
