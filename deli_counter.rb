@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
     else
-    katz_deli.each.with_index { |val, index|
+    katz_deli.each_with_index { |val, index|
       new_arr << "#{index + 1}. #{val}"
         }
     puts "The line is currently: #{new_arr.to_s}"
