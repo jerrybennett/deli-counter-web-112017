@@ -9,6 +9,6 @@ def line(katz_deli)
     katz_deli.each_with_index { |val, index|
       new_arr << "#{index + 1}. #{val}"
         }
-    puts "The line is currently: #{new_arr.join(", ")}"
+    puts "The line is currently: #{new_arr.join(" ")}"
     end
 end
