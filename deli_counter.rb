@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     else
     katz_deli.each.with_index { |val, index|
-      puts "The line is currently: #{index}. #{val}"
+      puts "The line is currently: #{index + 1}. #{val}"
         }
     end
 end
